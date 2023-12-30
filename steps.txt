@@ -1,0 +1,16 @@
+nmp init -y
+tsc --init
+npm install inquirer
+npm install --save inquirer
+npm install @types/inquirer --save-dev
+
+npm install prompt
+npm install @types/prompt --save-dev
+
+import inquirer from "inquirer";
+import chalk from "chalk";
+import chalkAnimation from "chalk-animation";
+npm i       (To install everything for the project which were added in packages.json)
+
+
+Now change the target in tsconfig.json (1): "target": "ES2022", on line 14. (2): "module": "NodeNext" on line 28. (3): "moduleResolution": "NodeNext" on line 30. (4): Open package.json and add a new line there "type": "module" (5): Now create a file named index.ts.
